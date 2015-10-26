@@ -164,6 +164,12 @@ body{
 #viability-grid .k-master-row.k-state-selected + .k-detail-row td:first-child {
     border-left: 3px solid #90D1F6;
 }
+
+
+#viability-grid .k-icon.k-i-arrow-n,
+#viability-grid .k-icon.k-i-arrow-s {
+    display: none;
+}
 #viability-grid.mytask .k-master-row.k-state-selected td:nth-child(-n+2) {
   background: #90D1F6;
 }
